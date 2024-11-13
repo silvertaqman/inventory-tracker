@@ -8,6 +8,5 @@ plotly_express==0.4.1
 streamlit==1.25.0
 streamlit-book==0.7.5
 python-decouple
-psycopg2
 psycopg2-binary
 bcrypt
