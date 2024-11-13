@@ -66,7 +66,10 @@ st.info(
     """
 )
 
-# Load data from database
+# Conecta a la base de datos
+conn, db_was_just_created = connect_db()
+
+# Carga los datos desde la base de datos
 df = load_data(conn)
 
 # -----------------------------------------------------------------------------
