@@ -1,8 +1,4 @@
-from collections import defaultdict
-from pathlib import Path
-
 import streamlit as st
-import altair as alt
 import pandas as pd
 
 import psycopg2
